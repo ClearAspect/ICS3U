@@ -1,0 +1,20 @@
+117
+Tuscon
+Dallas
+8:45 a.m.
+239
+L.A.
+Boston
+10:15 a.m.
+298
+Albany
+Reno
+1:35 p.m.
+326
+Houston
+New York
+2:40 p.m.
+445
+New York
+Tampa
+4:20 p.m.

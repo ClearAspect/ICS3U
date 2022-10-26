@@ -1,0 +1,20 @@
+Pizza Hut               
+14400
+Domino's                
+5950
+Little Caesar's          
+4300
+Papa John's               
+1517
+Round Table                
+680
+Godfather's              
+539
+Chuck E. Cheese           
+524
+Picadilly Circus           
+514
+Pizza Inn                
+312
+California Pizza Kitchen
+80

@@ -1,0 +1,12 @@
+Green Mall
+6.5
+583
+Red Mall
+7.25
+426
+Blue Mall
+5
+823
+Yellow Mall
+9.1
+456
