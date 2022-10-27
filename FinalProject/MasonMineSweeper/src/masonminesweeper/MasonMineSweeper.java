@@ -190,57 +190,57 @@ public class MasonMineSweeper extends javax.swing.JFrame {
     public int surroundingMines(int row, int col) {
         int numOfMines = 0; //Mines in proximity to the initial tile
         //North space
-        if (isValidSpace(row,col-1) == true) { //space is on board
-            if (isMine(row,col-1) == true) { //north space is a mine
+        if (isValidSpace(row,col-1)) { //space is on board
+            if (isMine(row,col-1)) { //north space is a mine
                 numOfMines++; //increase the number of mines by one
             }
         }
         
         //East space
-        if (isValidSpace(row+1,col) == true) {
-            if (isMine(row+1,col) == true) {
+        if (isValidSpace(row+1,col)) {
+            if (isMine(row+1,col)) {
                 numOfMines++;
             }
         }
         
         //South space
-        if (isValidSpace(row,col+1) == true) {
-            if (isMine(row,col+1) == true) {
+        if (isValidSpace(row,col+1)) {
+            if (isMine(row,col+1)) {
                 numOfMines++;
             }
         }
         
         //West space
-        if (isValidSpace(row-1,col) == true) {
-            if (isMine(row-1,col) == true) {
+        if (isValidSpace(row-1,col)) {
+            if (isMine(row-1,col)) {
                 numOfMines++;
             }
         }
         
         //North West space
-        if (isValidSpace(row-1,col-1) == true) {
-            if (isMine(row-1,col-1) == true) {
+        if (isValidSpace(row-1,col-1)) {
+            if (isMine(row-1,col-1)) {
                 numOfMines++;
             }
         }
         
         //North East space
-        if (isValidSpace(row+1,col-1) == true) {
-            if (isMine(row+1,col-1) == true) {
+        if (isValidSpace(row+1,col-1)) {
+            if (isMine(row+1,col-1)) {
                 numOfMines++;
             }
         }
         
         //South West space
-        if (isValidSpace(row-1,col+1) == true) {
-            if (isMine(row-1,col+1) == true) {
+        if (isValidSpace(row-1,col+1)) {
+            if (isMine(row-1,col+1)) {
                 numOfMines++;
             }
         }
         
         //South East space
-        if (isValidSpace(row+1,col+1) == true) {
-            if (isMine(row+1,col+1) == true) {
+        if (isValidSpace(row+1,col+1)) {
+            if (isMine(row+1,col+1)) {
                 numOfMines++;
             }
         }
@@ -510,7 +510,7 @@ public class MasonMineSweeper extends javax.swing.JFrame {
      */
     public void leftClick(int row, int col) {
         
-        if (firstClick == true) { //if the user hasnt clicked yet. starts game
+        if (firstClick) { //if the user hasnt clicked yet. starts game
             playing = true; //unlock the game
             placeMines(row, col); //places mines
             firstClick = false; //Game start wont happen again
